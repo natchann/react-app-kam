@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+ul li {
+  color: blue;
+}
+
+.first-div{
+  border: 1px black;
+  background: #61dafb;
+  height: 50px;
+  width: 50px;
 }
 
 .App-logo {
@@ -7,7 +18,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
