@@ -1,16 +1,19 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 ul li {
   color: blue;
+  display: inline-block;
+  padding: 30px;
 }
 
 .first-div{
   border: 1px black;
   background: #61dafb;
   height: 50px;
-  width: 50px;
+  width: 100%;
+  padding: 20px;
 }
 
 .App-logo {
