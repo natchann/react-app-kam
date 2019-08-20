@@ -20,9 +20,26 @@ background-color: aquamarine;
 }
 .nav {
 grid-area: nav;
-background-color: rgb(127, 225, 255); 
+background: #300df3a1;
 }
 
+.nav div {
+  padding: 15px;
+  text-align: center;
+}
+
+.nav div a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav div:hover{
+  background: #160477a1;
+    }
+
+  .nav div:active{
+    background: #c1b6faa1;
+    }
 .content {
 grid-area: cont; /*можно называть по своему усмотрению */
 background-color: burlywood;
@@ -30,3 +47,4 @@ background-color: burlywood;
 .ava-img {
   width: 100px;
 }
+
